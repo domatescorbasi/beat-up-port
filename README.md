@@ -1,5 +1,7 @@
 # beat-up-port
 
+![alt text](https://i.imgur.com/sWsVRVr.png "Beat-up-port Logo")
+
 ### Beat-up-port is a music scraper for Beatport
 
 Downloads the music categorically into appropriate folders depending on the genre.
