@@ -1,22 +1,6 @@
 #! /bin/bash
 
 # ***************************************************************************************
-# *                  DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE                        *
-# *                             Version 3, December 2017                                *
-# *                                                                                     *
-# *                           Copyright (C) 2017 Riza DOGAN                             *
-# *                                                                                     *
-# *           Everyone is permitted to copy and distribute verbatim or modified         *
-# *          copies of this license document, and changing it is allowed as long        *
-# *                                as the name is changed.                              *
-# *                                                                                     *
-# *                    DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE                      *
-# *             TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION         *
-# *                                                                                     *
-# *                    0. You just DO WHAT THE FUCK YOU WANT TO.                        *
-# ***************************************************************************************
-
-# ***************************************************************************************
 # *                         Beat Up Port is a scraper for Beatport.                     *
 # *  Downloads the music categorically into appropriate folders depending on the genre. *
 # *                         Usage : ./beat-up-port.sh                                   *
