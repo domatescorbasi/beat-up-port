@@ -9,9 +9,9 @@ Downloads the music categorically into appropriate folders depending on the genr
 
 # Usage
 ### Set your variables in the script
-DLDIR="/path/to/dir" # Where  downloaded music should reside.      
+DLDIR="/path/to/dir"       _# Where  downloaded music should reside._      
 
-DATADIR="/path/to/dir" # Where logs and top100 info should reside.
+DATADIR="/path/to/dir"     _# Where logs and top100 info should reside._
 
 ### Example :
 _DLDIR="$HOME/Youtube_Music_Feed"_
