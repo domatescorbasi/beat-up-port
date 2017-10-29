@@ -88,7 +88,7 @@ ultimateTopSongs()
 		trackName=$(sed "${NUM}q;d" "$DATADIR/$GENNAME-tracknames.txt")
 		artistName=$(sed "${NUM}q;d" "$DATADIR/$GENNAME-artistnames.txt")
 		genreName=$(sed "${NUM}q;d" "$DATADIR/$GENNAME-genrenames.txt")
-		youtube-dl "ytsearch:$trackName $artistName" -f 140 -o \
+		youtube-dl "ytsearch:$trackName $artistName" -f bestaudio -o \
 		"$HOME/Youtube_Music_Feed/Beatport/Ultimate 100!/$genreName/%(title)s.%(ext)s"
 		checkExitCode
 	}
