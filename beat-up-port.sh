@@ -139,7 +139,7 @@ while IFS='' read -r line || [[ -n "$line" ]]; do
 		sed 's/https:\/\/www.youtube.com\/watchx3Fvx3D//g')
 	if [[ -n "$downloadData" ]]; then
 		echo "[$FINE] Youtube link found"
-		youtube-dl --flat-playlist  -f 140 -o \
+		youtube-dl --flat-playlist  -f bestaudio -o \
 			"$DLDIR/Beatport/$GENNAME/%(uploader)s/%(title)s.%(ext)s" \
 			"$downloadData"
 		checkExitCode
@@ -152,7 +152,7 @@ while IFS='' read -r line || [[ -n "$line" ]]; do
 			 head -1)
 		if [[ -n "$downloadData" ]]; then
 			echo "[$FINE] Soundcloud link found"
-			youtube-dl --flat-playlist  -f 140 -o \
+			youtube-dl --flat-playlist  -f bestaudio -o \
 				"$DLDIR/Beatport/$GENNAME/%(uploader)s/%(title)s.%(ext)s" \
 				"$downloadData"
 			checkExitCode
